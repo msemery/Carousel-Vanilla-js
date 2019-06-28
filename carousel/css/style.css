@@ -1,0 +1,52 @@
+#carousel {
+    width: 70%;
+    height: 70vh;
+    background: blue;
+    margin: 20px auto 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+#firstElement {
+    width: 90%;
+    height: 90%;
+    background: violet;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#secondElement {
+
+    width: 90%;
+    height: 90%;
+    background: green;
+    margin: auto;
+    position: absolute;
+    right: -948px;
+}
+
+.newCss {
+    right: 0!important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#right {
+    position: fixed;
+    right: 7%;
+    top: 35%;
+    font-size: 50px;
+ 
+}
+
+#left{
+    position: fixed;
+    left: 7%;
+    top: 35%;
+    font-size: 50px;
+
+}
