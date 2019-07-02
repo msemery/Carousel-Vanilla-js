@@ -1,52 +1,55 @@
-#carousel {
-    width: 70%;
-    height: 70vh;
+.container {
+    width: 70vw;
+    height: 90vh;
+    overflow: hidden; 
+    display: -webkit-box;
+}
+
+.frames {
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+}
+
+#f1 {
     background: blue;
-    margin: 20px auto 0 auto;
-    position: relative;
-    overflow: hidden;
 }
 
-#firstElement {
-    width: 90%;
-    height: 90%;
-    background: violet;
-    margin: auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+#f2 {
+    background: red;
 }
 
-#secondElement {
+#f3 {
+    background: pink;
+}
 
-    width: 90%;
-    height: 90%;
+#f4 {
     background: green;
-    margin: auto;
-    position: absolute;
-    right: -948px;
 }
 
-.newCss {
-    right: 0!important;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.commandes {
+    width: 70vw;
+    height: 7vh;
+    display: flex;
+}
+
+.controls {
+    width: 33%;
+    height: 100%;
+    margin: auto;
+}
+
+#left {
+    background: violet;
+    pointer-events: none;
+    opacity: 0;
+}
+
+#return {
+    background: brown;
 }
 
 #right {
-    position: fixed;
-    right: 7%;
-    top: 35%;
-    font-size: 50px;
- 
+    background: yellow;
 }
 
-#left{
-    position: fixed;
-    left: 7%;
-    top: 35%;
-    font-size: 50px;
-
-}
